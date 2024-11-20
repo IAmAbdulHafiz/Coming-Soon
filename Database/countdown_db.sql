@@ -1,0 +1,4 @@
+CREATE TABLE countdown (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    end_time BIGINT NOT NULL
+);
