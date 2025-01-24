@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We are currently working on something amazing. Stay tuned!">
     <title>Coming Soon</title>
-    <link rel="icon" type="image/x-icon" href="img/nss_logo.jpg">
+    <link rel="icon" type="image/x-icon" href="img/nss_logo.jpg" alt="NSS Logo">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
 </head>
@@ -12,9 +13,9 @@
     <div class="background-image"></div>
     <div class="overlay"></div>
     <div class="content">
-        <h1 id="coming-soon-title" style="color:#FFD700; font-size: 4em;">Coming Soon</h1>
+        <h1 id="coming-soon-title" style="color:#FFA500; font-size: 4em;">Coming Soon</h1>
         <h1 id="organization-name">Welcome to [Organization Name]!</h1>
-        <p>We are currently working on something amazing. Stay tuned!</p>
+        <p>We are excited to have you here. Our team is working hard to build something truly amazing. Stay tuned for updates!</p>
         <div class="progress-container">
             <div class="progress-bar" id="progress-bar"></div>
             <div class="progress-bar-text" id="progress-bar-text"></div>
@@ -29,9 +30,9 @@
             </a>
         </div>
         <div class="footer">
-            Contact us: +233249241156/0206789600 or <a href="mailto:info@nebatech.com" style="color: #FFD700;">info@nebatech.com</a>
+            Contact us: (+233) 247636080 / 249241156 / 206789600 or <a href="mailto:info@nebatech.com" style="color: #FFA500;">info@nebatech.com</a>
         </div>
     </div>
-    <script src="css/myscript.js" defer></script>
+    <script src="js/myscript.js" defer></script>
 </body>
 </html>

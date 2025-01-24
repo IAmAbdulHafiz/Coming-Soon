@@ -55,7 +55,7 @@ p {
     font-size: 16px;
     color: #002366; /* Dark Blue */
     text-decoration: none;
-    background: #FFD700; /* Gold */
+    background: #FFA500; /* Gold */
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
@@ -69,7 +69,7 @@ p {
 .footer {
     margin-top: 20px;
     font-size: 14px;
-    color: #FFD700; /* Gold */
+    color: #FFA500; /* Gold */
     animation: fadeInUp 1s ease-in-out;
 }
 .progress-container {

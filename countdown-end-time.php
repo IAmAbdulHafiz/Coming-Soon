@@ -3,8 +3,8 @@ session_start();
 include 'db.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Set the end time to 1 week from now
-    $endTime = round(microtime(true) * 1000) + (7 * 24 * 60 * 60 * 1000); // 1 week from now in milliseconds
+    // Set the end time to 8 days from now in milliseconds
+    $endTime = round(microtime(true) * 1000) + (8 * 24 * 60 * 60 * 1000);
 
     // Insert or update the end time in the database
     $sql = "REPLACE INTO countdown (id, end_time) VALUES (1, $endTime)";
@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo json_encode(['error' => $conn->error]);
     }
 } else {
-    // Get the end time
+    // Retrieve the end time from the database
     $sql = "SELECT end_time FROM countdown WHERE id = 1";
     $result = $conn->query($sql);
 
