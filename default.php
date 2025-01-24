@@ -12,7 +12,7 @@
     <div class="background-image"></div>
     <div class="overlay"></div>
     <div class="content">
-        <h1 id="coming-soon-title">Coming Soon</h1>
+        <h1 id="coming-soon-title" style="color:#FFD700; font-size: 4em;">Coming Soon</h1>
         <h1 id="organization-name">Welcome to [Organization Name]!</h1>
         <p>We are currently working on something amazing. Stay tuned!</p>
         <div class="progress-container">
@@ -29,7 +29,7 @@
             </a>
         </div>
         <div class="footer">
-            Contact us: +233249241156 / 0206789600 or <a href="mailto:info@nebatech.com" style="color: #FFD700;">info@nebatech.com</a>
+            Contact us: +233249241156/0206789600 or <a href="mailto:info@nebatech.com" style="color: #FFD700;">info@nebatech.com</a>
         </div>
     </div>
     <script src="css/myscript.js" defer></script>
